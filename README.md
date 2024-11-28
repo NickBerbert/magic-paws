@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Aplicação de E-commerce Magic Paws
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo à **Aplicação de E-commerce Magic Paws**! Este é um aplicativo web, baseado em React, onde os usuários podem navegar pelos produtos na página Home, adicionar itens ao carrinho de compras, registrar/login com autenticação Firebase e proceder ao checkout.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Funcionalidades**
+- **Autenticação de Usuário**:
+  - Registro e login de usuários utilizando Firebase Authentication.
+- **Gestão de Produtos**:
+  - Exibição de produtos.
+  - Adicionar produtos ao carrinho de compras.
+  - Remover produtos do carrinho.
+- **Carrinho de Compras**:
+  - Exibição dos itens adicionados com preços e avaliações.
+  - Cálculo dinâmico do subtotal dos itens no carrinho.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Sobre o Projeto**
+Este aplicativo foi desenvolvido como parte das atividades da disciplina de **Gerência de Configuração e Controle de Versão**, ministrada pelo **Professor Luiz Nunes**. O projeto tem como objetivo consolidar os conhecimentos adquiridos sobre desenvolvimento de software, integração de ferramentas modernas de versionamento e boas práticas de configuração de ambientes. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Tecnologias Utilizadas**
+- **Frontend**:
+  - React.js
+  - React Router DOM (para navegação)
+  - CSS para estilização
+- **Backend**:
+  - Firebase (Autenticação e serviços backend)
+- **Gerenciamento de Estado**:
+  - React Context API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Configuração do Projeto**
 
-### `npm run build`
+Siga os passos abaixo para configurar e executar o projeto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **1. Clone o Repositório**
+Abra o **Git Bash** ou o terminal de sua preferência e execute os seguintes comandos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/NickBerbert/magic-paws.git
+cd magic-paws
+```
+### **2. Instale as Dependências**
+Para evitar conflitos de dependências, utilize o comando:
 
-### `npm run eject`
+```bash
+npm install --legacy-peer-deps
+```
+### **3. Inicie o Servidor de Desenvolvimento**
+```bash
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+## **Deploy**
+Este projeto foi hospedado utilizando o **Firebase Hosting**. Você pode acessá-lo através do link abaixo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[https://projeto-aula-luiz.web.app](https://projeto-aula-luiz.web.app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
