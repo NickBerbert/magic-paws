@@ -61,5 +61,3 @@ Este projeto foi hospedado utilizando o **Firebase Hosting**. Você pode acessá
 
 [https://projeto-aula-luiz.web.app](https://projeto-aula-luiz.web.app)
 
-
-
